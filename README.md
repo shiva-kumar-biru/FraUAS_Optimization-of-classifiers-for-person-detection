@@ -1,1 +1,0 @@
-# FraUAS_Optimization-of-classifiers-for-person-detection
