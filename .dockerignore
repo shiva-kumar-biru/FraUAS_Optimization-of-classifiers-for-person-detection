@@ -1,0 +1,17 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore logs and temp files
+*.log
+tmp/
+*.tmp
+
+# Ignore node_modules and Python virtual environments
+venv/
+__pycache__/
+
+# Ignore Dockerfile and docker-compose.yaml (not needed in the final image)
+Dockerfile
+docker-compose.yaml
+
