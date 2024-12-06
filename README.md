@@ -110,7 +110,9 @@ Using GitHub Actions, every change to the code or UI triggers a build of the Doc
 
 GitHub Actions Workflow: [Workflow File](https://github.com/shiva-kumar-biru/FraUAS_Optimization-of-classifiers-for-person-detection/blob/main/.github/workflows/deploy-to-ecs.yml)
 
+## TODO ..
 
+create a workflow to deploy it on ECS and run it on ECS
 
 
 ## Project Objective
