@@ -93,6 +93,24 @@ pip install -r requirements.txt
 -  **`dataprocessing_of_gui`**: This file contains the conversion process and the loaded trained models of the GUI 
 - **`README.md`**: This readme file.
 
+
+## Dockerization and CI/CD
+
+### Docker Image and AWS ECR
+
+The project is dockerized and the Docker image is pushed to AWS Elastic Container Registry (ECR) for deployment.
+
+Dockerfile: [Dockerfile](https://github.com/shiva-kumar-biru/FraUAS_Optimization-of-classifiers-for-person-detection/blob/main/Dockerfile)
+ECR Deployment: The image is pushed to AWS ECR after every code/UI change.
+
+CI/CD Workflow
+Using GitHub Actions, every change to the code or UI triggers a build of the Docker image and pushes it to AWS ECR for continuous deployment.
+
+GitHub Actions Workflow: Workflow File(https://github.com/shiva-kumar-biru/FraUAS_Optimization-of-classifiers-for-person-detection/blob/main/.github/workflows/deploy-to-ecs.yml)
+
+
+
+
 ## Project Objective
 
 The project's objective is to develop and optimize machine learning classifiers for person detection in an office setting. The final deliverable includes a functional GUI, allowing users to interact with the models, evaluate their performance, and make informed decisions based on the results.
